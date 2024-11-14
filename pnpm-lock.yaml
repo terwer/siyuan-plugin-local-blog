@@ -55,8 +55,8 @@ importers:
         specifier: 8.5.1-28758700.571a510
         version: 8.5.1-28758700.571a510(magicast@0.3.5)(rollup@4.25.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       '@terwer/esbuild-config-custom':
-        specifier: 1.2.0
-        version: 1.2.0(@types/minimist@1.2.5)(dotenv@16.4.5)(esbuild-plugin-copy@2.1.1(esbuild@0.24.0))(esbuild-plugin-d.ts@1.3.0(typescript@5.6.3))(esbuild-plugin-ifdef@1.0.1)(esbuild-plugin-inline-image@0.0.9)(esbuild-plugin-vue3@0.3.2(cheerio@1.0.0)(sass@1.80.6))(esbuild-style-plugin@1.6.3)(esbuild@0.24.0)(minimist@1.2.8)(rimraf@4.4.1)(stylus@0.63.0)
+        specifier: 2.2.0
+        version: 2.2.0(@types/minimist@1.2.5)(dotenv@16.4.5)(esbuild-plugin-copy@2.1.1(esbuild@0.24.0))(esbuild-plugin-d.ts@1.3.0(typescript@5.6.3))(esbuild-plugin-ifdef@1.0.1)(esbuild-plugin-inline-image@0.0.9)(esbuild-plugin-vue3@0.3.2(cheerio@1.0.0)(sass@1.80.6))(esbuild-style-plugin@1.6.3)(esbuild@0.24.0)(minimist@1.2.8)(rimraf@4.4.1)(stylus@0.63.0)
       '@terwer/eslint-config-custom':
         specifier: ^1.3.6
         version: 1.3.6(@nuxt/eslint-config@0.1.1(eslint@8.57.0))(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@4.9.5))(eslint@8.57.0)(typescript@5.6.3))(astro-eslint-parser@0.13.3)(eslint-config-prettier@8.10.0(eslint@8.57.0))(eslint-config-turbo@1.13.4(eslint@8.57.0))(eslint-plugin-prettier@4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.0))(eslint@8.57.0)(prettier@2.8.8))(eslint-plugin-svelte@2.43.0(eslint@8.57.0)(svelte@4.2.19))(eslint-plugin-vue@9.27.0(eslint@8.57.0))(eslint@8.57.0)(prettier-plugin-svelte@2.10.1(prettier@2.8.8)(svelte@4.2.19))(prettier@2.8.8)(typescript@5.6.3)
@@ -1071,22 +1071,22 @@ packages:
   '@sxzz/popperjs-es@2.11.7':
     resolution: {integrity: sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==}
 
-  '@terwer/esbuild-config-custom@1.2.0':
-    resolution: {integrity: sha512-8mKotP4DZ+lnB8Mn0jDu8Zv+Bdy1OdtjnbfodI1qO6zr+//BKWx0k6GMh99A2vz1+WNTOvuSu3QiWseWDmFXXQ==}
+  '@terwer/esbuild-config-custom@2.2.0':
+    resolution: {integrity: sha512-FG4WTlKIT8CctZv8MOekzY/L/SOYlrAVAH+OaEH249jTNeKgF4E9PWKuFMfwlONdSKw+OWGky2enjfULy6FqNg==}
     hasBin: true
     peerDependencies:
       '@types/minimist': ^1.2.2
       dotenv: ^16.0.3
-      esbuild: ^0.17.17
+      esbuild: ^0.19.11
       esbuild-plugin-copy: ^2.1.1
       esbuild-plugin-d.ts: ^1.1.0
       esbuild-plugin-ifdef: ^1.0.1
       esbuild-plugin-inline-image: ^0.0.9
-      esbuild-plugin-vue3: 0.3.2
+      esbuild-plugin-vue3: 0.4.0
       esbuild-style-plugin: ^1.6.2
       minimist: ^1.2.8
-      rimraf: ^4.4.1
-      stylus: ^0.59.0
+      rimraf: ^5.0.5
+      stylus: ^0.62.0
 
   '@terwer/eslint-config-custom@1.3.6':
     resolution: {integrity: sha512-W0dFSTYfkzpp71LW8cDZUgLrNa004KDctojbiQrJrF4FIDmlwND/LyPUqfe1Eg8sulB5qkNX9qMgFWZ4SAVXBQ==}
@@ -2236,6 +2236,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -5574,7 +5575,7 @@ snapshots:
 
   '@sxzz/popperjs-es@2.11.7': {}
 
-  '@terwer/esbuild-config-custom@1.2.0(@types/minimist@1.2.5)(dotenv@16.4.5)(esbuild-plugin-copy@2.1.1(esbuild@0.24.0))(esbuild-plugin-d.ts@1.3.0(typescript@5.6.3))(esbuild-plugin-ifdef@1.0.1)(esbuild-plugin-inline-image@0.0.9)(esbuild-plugin-vue3@0.3.2(cheerio@1.0.0)(sass@1.80.6))(esbuild-style-plugin@1.6.3)(esbuild@0.24.0)(minimist@1.2.8)(rimraf@4.4.1)(stylus@0.63.0)':
+  '@terwer/esbuild-config-custom@2.2.0(@types/minimist@1.2.5)(dotenv@16.4.5)(esbuild-plugin-copy@2.1.1(esbuild@0.24.0))(esbuild-plugin-d.ts@1.3.0(typescript@5.6.3))(esbuild-plugin-ifdef@1.0.1)(esbuild-plugin-inline-image@0.0.9)(esbuild-plugin-vue3@0.3.2(cheerio@1.0.0)(sass@1.80.6))(esbuild-style-plugin@1.6.3)(esbuild@0.24.0)(minimist@1.2.8)(rimraf@4.4.1)(stylus@0.63.0)':
     dependencies:
       '@types/minimist': 1.2.5
       dotenv: 16.4.5
