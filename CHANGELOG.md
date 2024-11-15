@@ -359,6 +359,7 @@
 * set repo as a mirror ([609d383](https://github.com/terwer/siyuan-plugin-local-blog/commit/609d383e859861971188b200375d124e2fef698c))
 * suppress warning for sass ([8e41bec](https://github.com/terwer/siyuan-plugin-local-blog/commit/8e41bec94096635fd92042bac61d10c3a27a9be6))
 * update deps ([7e37065](https://github.com/terwer/siyuan-plugin-local-blog/commit/7e3706555817c2b3841992acdd5721f8419665db))
+* update docs ([8445394](https://github.com/terwer/siyuan-plugin-local-blog/commit/8445394c2165f036de92f5526268758d05de5a3b))
 * update docs ([c4f47ab](https://github.com/terwer/siyuan-plugin-local-blog/commit/c4f47aba9ea24a4f863987687dadf36fb97b7be4))
 * update docs ([d9b612c](https://github.com/terwer/siyuan-plugin-local-blog/commit/d9b612cc1c1bf66ed2f1a2cd0586327778d9de3a))
 * upgrade release please to 4 ([8c2b8f9](https://github.com/terwer/siyuan-plugin-local-blog/commit/8c2b8f991227ba11227b63fd05a822aadeb94eaf))
