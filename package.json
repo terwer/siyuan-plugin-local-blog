@@ -1,10 +1,10 @@
 {
   "name": "siyuan-plugin-blog",
-  "version": "5.3.1",
+  "version": "6.0.2",
   "scripts": {
     "devApp": "ppnpm dev -F @terwer/share-pro-app -- --host",
     "devSiyuan": "pnpm build -F siyuan-blog -- --watch",
-    "buildArtifacts": "pnpm build -F @terwer/share-pro-app -- --from node && pnpm build -F siyuan-blog",
+    "buildArtifacts": "./build-artifacts.sh",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
