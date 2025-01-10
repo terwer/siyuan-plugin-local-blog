@@ -28,7 +28,7 @@
     "@types/node": "^18.19.67",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint-config-custom": "workspace:*",
-    "fast-glob": "^3.3.2",
+    "fast-glob": "^3.3.3",
     "minimis": "^0.1.7",
     "minimist": "^1.2.8",
     "rollup-plugin-livereload": "^2.0.5",
